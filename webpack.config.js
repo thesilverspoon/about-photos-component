@@ -15,10 +15,7 @@ var config = {
       {
         test : /\.jsx?/,
         include : APP_DIR,
-        loader : ['babel-loader', 'eslint-loader'],
-        options: {
-          eslintPath: 'eslint-config-airbnb-standard/node_modules/eslint'
-        }
+        loader : 'babel-loader',
       }
     ]
   },
