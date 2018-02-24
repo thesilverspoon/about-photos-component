@@ -12,8 +12,8 @@ const styles = ['fancy', 'casual', 'dress-code enforced', 'no dress-code'];
 const hours = ["M - F, 7am - 8pm", "M - Sat, 10am - 9pm", "M - Sun, 8am - 10pm", "M - F, 10am - 6pm"];
 
 
-const ext = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext3.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext4.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"];
-const int = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg"];
+const exterior = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext3.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext4.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"];
+const interior = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg"];
 
 const boba = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/boba1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/boba2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/boba3.jpeg"];
 const burger = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/burger3.jpeg"];
@@ -30,19 +30,13 @@ const sushi = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg", 
 const taco = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/taco3.jpeg"];
 const thai = ["https://s3-us-west-1.amazonaws.com/imagesfornamson/thai1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/thai2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/thai3.jpeg"];
 
-const allItems = boba.concat(burger).concat(chinese).concat(coffee).concat(dimSum).concat(donuts).concat(iceCream).concat(indian).concat(pasta).concat(pizza).concat(sandwich).concat(sushi).concat(taco).concat(thai);
+const allItems = boba.concat(burger, chinese, coffee, dimSum, donuts, iceCream, indian, pasta, pizza, sandwich, sushi, taco, thai);
 
-
-
-
-
-for (let i = 0; i < dummy.length; i++) {
-  sampleInit[i].about.description = faker.lorem.paragraphs();
-  sampleInit[i].about.phone = faker.phone.phoneNumberFormat();
-  sampleInit[i].about.hours = randomElement(hours);
-  sampleInit[i].about.style = randomElement(styles);
-  sampleInit[i].about.price = randomElement(price);
-  sampleInit[i].banner = randomElement(int);
-};
-
-
+sampleInit.forEach((sample) => {
+  sample.about.description = faker.lorem.paragraphs();
+  sample.about.phone = faker.phone.phoneNumberFormat();
+  sample.about.hours = randomElement(hours);
+  sample.about.style = randomElement(styles);
+  sample.about.price = randomElement(price);
+  sample.banner = randomElement(interior);
+});
