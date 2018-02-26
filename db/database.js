@@ -1,37 +1,51 @@
 const mongoose = require('mongoose');
+const sampleData = require('../data/sampleData.js');
 
 mongoose.connect('mongodb://localhost/fetcher');
 
-
-// stubbing out this actual schema for my real data
-// let repoSchema = mongoose.Schema({
-//   id: {
-//     type: String,
-//     unique: true,
-//   },
-//   restaurant: String,
-//   about: {
-//     description: String,
-//     hours: String,
-//     cost: String,
-//     style: String,
-//     phone: Number,
-//   },
-//   banner: String,
-//   photo: [],
-// });
+const db = mongoose.connect;
 
 
-const testSchema = mongoose.Schema({
-  id: Number,
-  text: String,
+const aboutSchema = mongoose.Schema({
+  id: {
+    type: Number,
+    unique: true,
+  },
+  restaurant: String,
+  about: {
+    description: String,
+    hours: String,
+    cost: String,
+    style: String,
+    phone: String,
+  },
+  banner: String,
+  photo: [],
 });
 
 
-const Repo = mongoose.model('Repo', testSchema);
+const About = mongoose.model('About', aboutSchema);
 
-const testModel = new Repo({ id: 1, text: 'test' });
+let count = 0;
 
-testModel.save();
+sampleData.forEach((data) => {
+  data.about.cost = data.about.price;
 
-module.exports = Repo;
+  const about = new About(data);
+
+  about.save((err) => {
+    if (err) {
+    // console.log(err);
+    }
+    count += 1;
+    if (count === 119) {
+      mongoose.disconnect();
+    }
+  });
+});
+
+const find = (cb) => {
+  About.find({}, cb);
+};
+
+module.exports = find;

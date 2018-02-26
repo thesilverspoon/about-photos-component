@@ -1,5 +1,7 @@
+const express = require('express');
 const request = require('supertest');
 const app = require('../server/app.js');
+
 
 describe('should send back a 200 if static file is found', () => {
   test('It should respond with a 200', (done) => {
@@ -18,3 +20,7 @@ describe('should receive a 404 if route isnt correct', () => {
     });
   });
 });
+
+describe('GET route to /restaurants/:id/banner should return 200 status', () => {
+  test('should receive 200 status code', )
+})
