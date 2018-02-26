@@ -1,13 +1,14 @@
-const mocha = require('mocha');
-const assert = require('assert');
-const Repo = require('./database.js');
+const sampleData = require('../data/sampleData.js');
+const find = require('../db/database.js');
 
-describe('should save data', () => {
-  it('saves record correctly', (done) => {
-    const testModel = new Repo({ id: 1, text: 'test' });
-
-    testModel.save().then(() => {
-      assert(testModel.isNew === false); // if it is not new, it is saved to the DB
+describe('seeded data should be inserted properly', () => {
+  test('seeded data should be inserted properly', (done) => {
+    find((err, data) => {
+      expect(data.length).toBe(119);
+      expect(data[0].photo.length).toBe(3);
+      expect(data[3].banner).toBe(sampleData[3].banner);
+      expect(data[6].photo).toEqual(expect.arrayContaining(sampleData[6].photo));
+      expect(data[8].about.cost).toBe(sampleData[8].about.price);
       done();
     });
   });
