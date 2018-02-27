@@ -1,9 +1,9 @@
 const sampleData = require('../data/sampleData.js');
-const find = require('../db/database.js');
+const db = require('../db/database.js');
 
 describe('seeded data should be inserted properly', () => {
   test('seeded data should be inserted properly', (done) => {
-    find((err, data) => {
+    db.find({}, (err, data) => {
       expect(data.length).toBe(119);
       expect(data[0].photo.length).toBe(3);
       expect(data[3].banner).toBe(sampleData[3].banner);
