@@ -2,6 +2,8 @@ import React from 'react';
 import { render } from 'react-dom';
 import ajax from './ajax.js';
 import sampleData from '../../data/sampleData.js';
+import PropTypes from 'prop-types';
+import About from './About.jsx';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -20,9 +22,15 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div>Hello World</div>
+      <div>
+        <About restaurant={this.state.name} description={this.state.description}/>
+      </div>
     );
   }
 }
+
+App.propTypes = {
+  data: PropTypes.object.isRequired,
+};
 
 render(<App data={sampleData[0]} />, document.getElementById('app'));
