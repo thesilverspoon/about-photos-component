@@ -8,6 +8,9 @@ import About from './About.jsx';
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      restaurant: "",
+    }
   }
 
   componentDidMount() {
@@ -19,7 +22,9 @@ class App extends React.Component {
       if (err) {
         throw err;
       } else {
-        console.log(data);
+        this.setState({
+          restaurant: data.restaurant,
+        })
       }
     });
   }
@@ -27,6 +32,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+      hi
         <About data={sampleData[0]} />
       </div>
     );
