@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const sampleData = require('../data/sampleData.js');
 
 
-mongoose.connect('mongodb://localhost/fetcher');
+mongoose.connect('mongodb://localhost/restaurant');
 
 const aboutSchema = mongoose.Schema({
   id: {
@@ -45,12 +45,16 @@ sampleData.forEach((data) => {
     if (err) {
     } else {
       count += 1;
+      if (count === 119) {
+        mongoose.disconnect();
+      }
     }
-  })
+  });
+
 });
 
-const find = (cb) => {
-  About.find({}, (err, about) => {
+const find = (obj, cb) => {
+  About.find(obj, (err, about) => {
     if (err) {
       cb(err, null);
     } else {
@@ -59,11 +63,12 @@ const find = (cb) => {
   });
 };
 
-const findOne = (cb) => {
+const findOne = (obj, cb) => {
   About.findOne({}, (err, results) => {
     if (err) {
       cb(err, null);
     } else {
+      console.log('hereeeee', results);
       cb(null, results);
     }
   })
