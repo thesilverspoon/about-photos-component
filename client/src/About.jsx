@@ -5,10 +5,10 @@ const About = (props) => {
   return (
     <div>
       <div className="restaurant">
-        About {props.data}
+        About
       </div>
       <div className="description">
-        {props.description}
+      description
       </div>
     </div>
   );
