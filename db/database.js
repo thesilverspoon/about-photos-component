@@ -2,18 +2,18 @@ const mongoose = require('mongoose');
 const sampleData = require('../data/sampleData.js');
 
 
-mongoose.connect('mongodb://localhost/fetcher');
+mongoose.connect('mongodb://localhost/restaurant');
 
 const aboutSchema = mongoose.Schema({
   id: {
     type: Number,
     unique: true,
   },
-  restaurant: String,
+  name: String,
   about: {
     description: String,
     hours: String,
-    cost: String,
+    price: String,
     style: String,
     phone: String,
   },
@@ -24,32 +24,39 @@ const aboutSchema = mongoose.Schema({
 
 const About = mongoose.model('About', aboutSchema);
 
+let count = 0;
+
 sampleData.forEach((data) => {
-  data.about.cost = data.about.price;
-  data.restaurant = data.name;
 
   const about = new About(data);
+
+  about.save((err, res) => {
+    if (err) {
+    } else {
+      count += 1;
+      if (count === 119) {
+        mongoose.disconnect();
+      }
+    }
+  });
+
 });
 
-const find = (cb) => {
-  About.find({}, (err, about) => {
+const find = (obj, cb) => {
+  About.find(obj, (err, about) => {
     if (err) {
-      console.log('nothing');
       cb(err, null);
     } else {
-      console.log('nothing');
       cb(null, about);
     }
   });
 };
 
-const findOne = (cb) => {
+const findOne = (obj, cb) => {
   About.findOne({}, (err, results) => {
     if (err) {
-      console.log(err);
       cb(err, null);
     } else {
-      console.log(results);
       cb(null, results);
     }
   })

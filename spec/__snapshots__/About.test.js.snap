@@ -21,11 +21,13 @@ ShallowWrapper {
         <div
           className="restaurant"
         >
-          About 
+          About
         </div>,
         <div
           className="description"
-        />,
+        >
+          description
+        </div>,
       ],
     },
     "ref": null,
@@ -35,17 +37,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "About ",
-            undefined,
-          ],
+          "children": "About",
           "className": "restaurant",
         },
         "ref": null,
-        "rendered": Array [
-          "About ",
-          undefined,
-        ],
+        "rendered": "About",
         "type": "div",
       },
       Object {
@@ -53,11 +49,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": "description",
           "className": "description",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "description",
         "type": "div",
       },
     ],
@@ -73,11 +69,13 @@ ShallowWrapper {
           <div
             className="restaurant"
           >
-            About 
+            About
           </div>,
           <div
             className="description"
-          />,
+          >
+            description
+          </div>,
         ],
       },
       "ref": null,
@@ -87,17 +85,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              "About ",
-              undefined,
-            ],
+            "children": "About",
             "className": "restaurant",
           },
           "ref": null,
-          "rendered": Array [
-            "About ",
-            undefined,
-          ],
+          "rendered": "About",
           "type": "div",
         },
         Object {
@@ -105,11 +97,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": "description",
             "className": "description",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "description",
           "type": "div",
         },
       ],

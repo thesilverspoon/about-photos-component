@@ -6,6 +6,6 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, '../client')));
 
-app.use('/restaurants/:id', router);
+app.use('/restaurants', router);
 
 module.exports = app;
