@@ -7,7 +7,7 @@ describe('seeded data should be inserted properly', () => {
     db.find({}, (err, data) => {
       expect(data.length).toBe(119);
       expect(data[0].photo.length).toBe(3);
-      expect(data[0].about.cost).toBe(sampleData[0].about.price);
+      expect(data[0].about.price).toBe(sampleData[0].about.price);
       done();
       mongoose.disconnect();
     });

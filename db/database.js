@@ -9,11 +9,11 @@ const aboutSchema = mongoose.Schema({
     type: Number,
     unique: true,
   },
-  restaurant: String,
+  name: String,
   about: {
     description: String,
     hours: String,
-    cost: String,
+    price: String,
     style: String,
     phone: String,
   },
@@ -27,19 +27,8 @@ const About = mongoose.model('About', aboutSchema);
 let count = 0;
 
 sampleData.forEach((data) => {
-  const obj = { id: '', about: { } };
 
-  obj.id = data.id;
-  obj.restaurant = data.name;
-  obj.about.description = data.about.description;
-  obj.about.hours = data.about.hours;
-  obj.about.cost = data.about.price;
-  obj.about.style = data.about.style;
-  obj.about.phone = data.about.phone;
-  obj.banner = data.banner;
-  obj.photo = data.photo;
-
-  const about = new About(obj);
+  const about = new About(data);
 
   about.save((err, res) => {
     if (err) {
