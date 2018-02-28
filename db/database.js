@@ -24,20 +24,36 @@ const aboutSchema = mongoose.Schema({
 
 const About = mongoose.model('About', aboutSchema);
 
-sampleData.forEach((data) => {
-  data.about.cost = data.about.price;
-  data.restaurant = data.name;
+let count = 0;
 
-  const about = new About(data);
+sampleData.forEach((data) => {
+  const obj = { id: '', about: { } };
+
+  obj.id = data.id;
+  obj.restaurant = data.name;
+  obj.about.description = data.about.description;
+  obj.about.hours = data.about.hours;
+  obj.about.cost = data.about.price;
+  obj.about.style = data.about.style;
+  obj.about.phone = data.about.phone;
+  obj.banner = data.banner;
+  obj.photo = data.photo;
+
+  const about = new About(obj);
+
+  about.save((err, res) => {
+    if (err) {
+    } else {
+      count += 1;
+    }
+  })
 });
 
 const find = (cb) => {
   About.find({}, (err, about) => {
     if (err) {
-      console.log('nothing');
       cb(err, null);
     } else {
-      console.log('nothing');
       cb(null, about);
     }
   });
@@ -46,10 +62,8 @@ const find = (cb) => {
 const findOne = (cb) => {
   About.findOne({}, (err, results) => {
     if (err) {
-      console.log(err);
       cb(err, null);
     } else {
-      console.log(results);
       cb(null, results);
     }
   })
