@@ -4,7 +4,7 @@ const router = require('./router.js');
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, '../client')));
+app.use('/restaurants/:id', express.static(path.join(__dirname, '../client')));
 
 app.use('/restaurants', router);
 

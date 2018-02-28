@@ -3,10 +3,10 @@ const $ = require('jquery');
 const get = (cb) => {
   $.ajax({
     url: '/restaurants/:id',
-    type: 'GET',
+    method: 'GET',
     success: (data) => {
       console.log('success', data);
-      cb(data);
+      cb(null, data);
     },
   });
 };

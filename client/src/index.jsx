@@ -10,6 +10,20 @@ class App extends React.Component {
     super(props);
   }
 
+  componentDidMount() {
+    this.fetch();
+  }
+
+  fetch() {
+    ajax.get((err, data) => {
+      if (err) {
+        throw err;
+      } else {
+        console.log(data);
+      }
+    });
+  }
+
   render() {
     return (
       <div>
@@ -18,5 +32,7 @@ class App extends React.Component {
     );
   }
 }
+
+render(<App />, document.getElementById('app'));
 
 export default App;
