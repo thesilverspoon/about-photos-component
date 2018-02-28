@@ -68,7 +68,6 @@ const findOne = (obj, cb) => {
     if (err) {
       cb(err, null);
     } else {
-      console.log('hereeeee', results);
       cb(null, results);
     }
   })

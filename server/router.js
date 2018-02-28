@@ -8,8 +8,9 @@ router.get('/:id', (req, res) => {
 
   db.find(req.params, (err, data) => {
     if (err) {
+      res.sendStatus(404);
     } else {
-      res.sendStatus(200);
+      res.json(data);
     }
   })
 });

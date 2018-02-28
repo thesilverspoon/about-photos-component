@@ -21,6 +21,20 @@ describe('should receive a 404 if route isnt correct', () => {
   });
 });
 
-describe('GET route to /restaurants/:id/banner should return 200 status', () => {
-  test('should receive 200 status code', )
-})
+describe('GET route to /restaurants/:id/ should return 200 status', () => {
+  test('should receive 200 status code', (done) => {
+    request(app).get('/restaurants/90826').then((response) => {
+      expect(response.statusCode).toBe(200);
+      done();
+    });
+  });
+});
+
+describe('GET route to /restaurants/:id', () => {
+  test('should receive appropriate body', (done) => {
+    request(app).get('/restaurants/89104').then((response) => {
+      expect(response.body[0].id).toBe(89104);
+      done();
+    });
+  });
+});

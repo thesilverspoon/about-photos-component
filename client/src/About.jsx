@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const About = (props) => {
-  {console.log(props.data)}
   return (
     <div>
       <div className="restaurant">
