@@ -34,6 +34,8 @@ describe('GET route to /restaurants/:id', () => {
   test('should receive appropriate body', (done) => {
     request(app).get('/restaurants/89104').then((response) => {
       expect(response.body[0].id).toBe(89104);
+      expect(response.body[0].restaurant).toBe('Tokyo Katana-Ya');
+      expect(response.body[0].about.cost).toBe('$');
       done();
     });
   });
