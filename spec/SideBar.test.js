@@ -13,8 +13,8 @@ describe('About Component', () => {
   });
 });
 
-describe("rendered `About`", () => {
-  it("received two props", () => {
+describe("rendered `SideBar`", () => {
+  it("received four props", () => {
     const component = shallow(<SideBar />);
     expect(component.props().children.length).toBe(4);
   });
