@@ -40,7 +40,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <About />
+        <About description={this.state.description} name={this.state.name}/>
       </div>
     );
   }
