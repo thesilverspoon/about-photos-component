@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = ({ banner }) => {
   return (
-    <div>
+    <div className="bannerImg">
       <img src={banner} />
     </div>
   );
