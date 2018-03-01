@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+#app {
+  background: #f7f7f7;
+}
 .main {
-  width: 50%;
+  width: 75%;
+  position: relative;
+  left: 100px;
 }
 
 .banner {
@@ -15,6 +20,18 @@
 .aboutWrap {
   position: relative;
   float: center;
+  padding: 25px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 10px;
+  top: 25px;
+  background: #fff;
+}
+
+.photo {
+  position: relative;
+  right: 70px;
+  top: 50px;
 }
 
 .photoTwo {
@@ -50,6 +67,8 @@
 .restaurant {
   font-size: 50px;
   font-family: Arial;
+  position: relative;
+  left: 5px;
 }
 
 .description {
@@ -58,16 +77,24 @@
 
 
 .sidebar {
-  width: 25%;
-  bottom: 25em;
-  float: right;
+  width: 15%;
+  bottom: 40em;
+  left: 900px;
   position: relative;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: #fff;
 }
 
-.grid:after {
+.grid {
   content: "";
   display: table;
   clear: both;
+  background: #f7f7f7;
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
 }
 
 .rowAbout {
