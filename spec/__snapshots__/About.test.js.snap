@@ -21,12 +21,12 @@ ShallowWrapper {
         <div
           className="restaurant"
         >
-          About
+          About 
         </div>,
         <div
           className="description"
         >
-          description
+          description 
         </div>,
       ],
     },
@@ -37,11 +37,17 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "About",
+          "children": Array [
+            "About ",
+            undefined,
+          ],
           "className": "restaurant",
         },
         "ref": null,
-        "rendered": "About",
+        "rendered": Array [
+          "About ",
+          undefined,
+        ],
         "type": "div",
       },
       Object {
@@ -49,11 +55,17 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "description",
+          "children": Array [
+            "description ",
+            undefined,
+          ],
           "className": "description",
         },
         "ref": null,
-        "rendered": "description",
+        "rendered": Array [
+          "description ",
+          undefined,
+        ],
         "type": "div",
       },
     ],
@@ -69,12 +81,12 @@ ShallowWrapper {
           <div
             className="restaurant"
           >
-            About
+            About 
           </div>,
           <div
             className="description"
           >
-            description
+            description 
           </div>,
         ],
       },
@@ -85,11 +97,17 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "About",
+            "children": Array [
+              "About ",
+              undefined,
+            ],
             "className": "restaurant",
           },
           "ref": null,
-          "rendered": "About",
+          "rendered": Array [
+            "About ",
+            undefined,
+          ],
           "type": "div",
         },
         Object {
@@ -97,11 +115,17 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "description",
+            "children": Array [
+              "description ",
+              undefined,
+            ],
             "className": "description",
           },
           "ref": null,
-          "rendered": "description",
+          "rendered": Array [
+            "description ",
+            undefined,
+          ],
           "type": "div",
         },
       ],

@@ -4,6 +4,7 @@ import ajax from './ajax.js';
 import sampleData from '../../data/sampleData.js';
 import PropTypes from 'prop-types';
 import About from './About.jsx';
+import SideBar from './SideBar.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -40,7 +41,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <div>
         <About description={this.state.description} name={this.state.name}/>
+        </div>
+        <div>
+        <SideBar hours={this.state.hours} phone={this.state.phone} price={this.state.price} style={this.state.style} />
+        </div>
       </div>
     );
   }
