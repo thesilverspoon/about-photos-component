@@ -3,6 +3,7 @@ import React from 'react';
 const SideBar = ({ price, hours, style, phone }) => {
   return (
     <div>
+      <img src="https://s3-us-west-1.amazonaws.com/imagesfornamson/21.png" className="moneyIcon"/>
       <div className="side">Price: 
         <div className="sideInfo">{price}</div>
       </div>

@@ -50,6 +50,8 @@
 }
 .side {
   padding: 15px;
+  position: relative;
+  left: 18px;
 }
 
 .sideInfo {
@@ -62,6 +64,13 @@
   position: relative;
   left: 97px;
   bottom: 160px;
+}
+
+.moneyIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 30px;
 }
 
 .restaurant {
