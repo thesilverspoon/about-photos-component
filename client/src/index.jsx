@@ -10,7 +10,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       restaurant: "",
-    }
+    };
   }
 
   componentDidMount() {
@@ -24,7 +24,7 @@ class App extends React.Component {
       } else {
         this.setState({
           restaurant: data.restaurant,
-        })
+        });
       }
     });
   }
