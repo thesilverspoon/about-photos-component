@@ -41,10 +41,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="wrapper">
+      <div className="grid">
         <div className="banner"><Banner banner={this.state.banner} /></div>
+        <div className="main">
           <div className="about"><About description={this.state.description} name={this.state.name} photo={this.state.photo} /></div>
-        <div className="sideBar"><SideBar hours={this.state.hours} phone={this.state.phone} price={this.state.price} style={this.state.style} /></div>
+        </div>
+        <div className="sidebar">
+          <div><SideBar hours={this.state.hours} phone={this.state.phone} price={this.state.price} style={this.state.style} /></div>
+        </div>
       </div>
     );
   }

@@ -1,11 +1,75 @@
-.wrapper {
-  display: grid;
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 50%;
 }
 
 .banner {
-  grid-column: 1;
-  grid-row: 1;
   background-color: #333;
+}
+
+.aboutWrap {
+  position: relative;
+  float: center;
+}
+
+.photoTwo {
+  height: 300px;
+  width: 350px;
+  position: relative;
+  left: 100px;
+}
+
+.photoThree {
+  height: 140px;
+  width: 250px;
+  position: relative;
+  left: 97px;
+  bottom: 140px;
+}
+.side {
+  padding: 15px;
+}
+
+.sideInfo {
+  font-size: 14px
+}
+
+.photoOne {
+  height: 140px;
+  width: 250px;
+  position: relative;
+  left: 97px;
+  bottom: 160px;
+}
+
+.restaurant {
+  font-size: 50px;
+  font-family: Arial;
+}
+
+.description {
+  font-family: Arial;
+}
+
+
+.sidebar {
+  width: 25%;
+  bottom: 25em;
+  float: right;
+  position: relative;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowAbout {
+  padding: 10px;
 }

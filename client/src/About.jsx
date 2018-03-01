@@ -3,18 +3,19 @@ import PropTypes from 'prop-types';
 
 const About = ({ description, name, photo }) => {
   return (
-    <div>
+    <div className="aboutWrap">
       <div className="restaurant">
-        About {name}
+        {name}
       </div>
-      <div className="description">
-        description {description}
+      <div className="rowAbout">
+        <div className="description">
+          {description}
+        </div>
       </div>
       <div className="photo">
-        Photos:
-        <img src={photo[0]} />
-        <img src={photo[1]} />
-        <img src={photo[2]} />
+        <img className="photoOne" src={photo[0]} />
+        <img className="photoTwo" src={photo[1]} />
+        <img className="photoThree" src={photo[2]} />
       </div>
     </div>
   );
