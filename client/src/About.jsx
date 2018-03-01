@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const About = (props) => {
+const About = ({ description, name }) => {
   return (
     <div>
       <div className="restaurant">
-        About
+        About {name}
       </div>
       <div className="description">
-      description
+      description {description}
       </div>
     </div>
   );
