@@ -43,7 +43,7 @@ class App extends React.Component {
     return (
       <div>
         <div><Banner banner={this.state.banner} /></div>
-          <div><About description={this.state.description} name={this.state.name}/></div>
+          <div><About description={this.state.description} name={this.state.name} photo={this.state.photo} /></div>
         <div><SideBar hours={this.state.hours} phone={this.state.phone} price={this.state.price} style={this.state.style} /></div>
       </div>
     );
