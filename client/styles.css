@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.banner {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #333;
+}

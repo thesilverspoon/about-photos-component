@@ -18,29 +18,8 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <About
-        data={
-          Object {
-            "about": Object {
-              "description": "Est dignissimos voluptas cumque. In enim cum est eligendi. Ratione reprehenderit sequi saepe nulla repellendus omnis.
- 
-Dolorum non error. Magni unde ratione sunt cumque impedit tempore temporibus. Saepe voluptas deserunt illum quia voluptate laborum molestiae cumque sint. Eius error nulla quas. Porro sed libero. Eum voluptatum totam ut nulla mollitia vel voluptates.
- 
-Voluptas rem occaecati aliquid voluptatem soluta dolorem cum ut. Ut mollitia eos quisquam. Omnis tempora similique.",
-              "hours": "M - F, 7am - 8pm",
-              "phone": "041-300-0703",
-              "price": "$$",
-              "style": "dress-code enforced",
-            },
-            "banner": "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg",
-            "id": 90976,
-            "name": "Beard Papa's",
-            "photo": Array [
-              "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg",
-              "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg",
-              "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg",
-            ],
-          }
-        }
+        description={undefined}
+        name={undefined}
       />,
     },
     "ref": null,
@@ -49,27 +28,8 @@ Voluptas rem occaecati aliquid voluptatem soluta dolorem cum ut. Ut mollitia eos
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "data": Object {
-          "about": Object {
-            "description": "Est dignissimos voluptas cumque. In enim cum est eligendi. Ratione reprehenderit sequi saepe nulla repellendus omnis.
- 
-Dolorum non error. Magni unde ratione sunt cumque impedit tempore temporibus. Saepe voluptas deserunt illum quia voluptate laborum molestiae cumque sint. Eius error nulla quas. Porro sed libero. Eum voluptatum totam ut nulla mollitia vel voluptates.
- 
-Voluptas rem occaecati aliquid voluptatem soluta dolorem cum ut. Ut mollitia eos quisquam. Omnis tempora similique.",
-            "hours": "M - F, 7am - 8pm",
-            "phone": "041-300-0703",
-            "price": "$$",
-            "style": "dress-code enforced",
-          },
-          "banner": "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg",
-          "id": 90976,
-          "name": "Beard Papa's",
-          "photo": Array [
-            "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg",
-            "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg",
-            "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg",
-          ],
-        },
+        "description": undefined,
+        "name": undefined,
       },
       "ref": null,
       "rendered": null,
@@ -84,29 +44,8 @@ Voluptas rem occaecati aliquid voluptatem soluta dolorem cum ut. Ut mollitia eos
       "nodeType": "host",
       "props": Object {
         "children": <About
-          data={
-            Object {
-              "about": Object {
-                "description": "Est dignissimos voluptas cumque. In enim cum est eligendi. Ratione reprehenderit sequi saepe nulla repellendus omnis.
- 
-Dolorum non error. Magni unde ratione sunt cumque impedit tempore temporibus. Saepe voluptas deserunt illum quia voluptate laborum molestiae cumque sint. Eius error nulla quas. Porro sed libero. Eum voluptatum totam ut nulla mollitia vel voluptates.
- 
-Voluptas rem occaecati aliquid voluptatem soluta dolorem cum ut. Ut mollitia eos quisquam. Omnis tempora similique.",
-                "hours": "M - F, 7am - 8pm",
-                "phone": "041-300-0703",
-                "price": "$$",
-                "style": "dress-code enforced",
-              },
-              "banner": "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg",
-              "id": 90976,
-              "name": "Beard Papa's",
-              "photo": Array [
-                "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg",
-                "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg",
-                "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg",
-              ],
-            }
-          }
+          description={undefined}
+          name={undefined}
         />,
       },
       "ref": null,
@@ -115,27 +54,8 @@ Voluptas rem occaecati aliquid voluptatem soluta dolorem cum ut. Ut mollitia eos
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "data": Object {
-            "about": Object {
-              "description": "Est dignissimos voluptas cumque. In enim cum est eligendi. Ratione reprehenderit sequi saepe nulla repellendus omnis.
- 
-Dolorum non error. Magni unde ratione sunt cumque impedit tempore temporibus. Saepe voluptas deserunt illum quia voluptate laborum molestiae cumque sint. Eius error nulla quas. Porro sed libero. Eum voluptatum totam ut nulla mollitia vel voluptates.
- 
-Voluptas rem occaecati aliquid voluptatem soluta dolorem cum ut. Ut mollitia eos quisquam. Omnis tempora similique.",
-              "hours": "M - F, 7am - 8pm",
-              "phone": "041-300-0703",
-              "price": "$$",
-              "style": "dress-code enforced",
-            },
-            "banner": "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg",
-            "id": 90976,
-            "name": "Beard Papa's",
-            "photo": Array [
-              "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg",
-              "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg",
-              "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg",
-            ],
-          },
+          "description": undefined,
+          "name": undefined,
         },
         "ref": null,
         "rendered": null,
