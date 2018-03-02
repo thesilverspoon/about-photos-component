@@ -49,13 +49,46 @@
   bottom: 140px;
 }
 .side {
-  padding: 15px;
+  padding: 10px;
   position: relative;
-  left: 18px;
+  left: 15px;
+  font-family: Arial;
+  font-weight: bold;
 }
 
-.sideInfo {
-  font-size: 14px
+.sideInfoStyle {
+  font-size: 13px;
+  position: relative;
+  left: 15px;
+  bottom: 20px;
+}
+
+.sideInfoPhone {
+  font-size: 13px;
+  position: relative;
+  left: 30px;
+  bottom: 22px;
+}
+
+.sideInfoHours {
+  font-size: 13px;
+  position: relative;
+  left: 20px;
+  bottom: 18px;
+}
+
+.sideInfoPrice {
+  font-size: 13px;
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+}
+
+.phoneInfo {
+  position: relative;
+  bottom: 20px;
+  font-size: 14px;
+  left: 10px;
 }
 
 .photoOne {
@@ -66,19 +99,33 @@
   bottom: 160px;
 }
 
-.moneyIcon {
-  height: 30px;
-  width: 30px;
+.clockIcon {
   position: relative;
-  top: 33px;
+  height: 15px;
+  width: 15px;
+  bottom: 50px;
 }
 
-.phoneIcon {
+.moneyIcon {
   height: 20px;
   width: 20px;
   position: relative;
-  bottom: 28px;
-  right: 25px;
+  top: 23px;
+}
+
+.phoneIcon {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  bottom: 35px;
+  right: 0px;
+}
+
+.dressIcon {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  bottom: 35px;
 }
 
 .restaurant {
