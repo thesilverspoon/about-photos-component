@@ -6,6 +6,7 @@ const About = ({ description, name, photo }) => {
     <div className="aboutWrap">
       <div className="restaurant">
         {name}
+        <div className="line" />
       </div>
       <div className="rowAbout">
         <div className="description">
