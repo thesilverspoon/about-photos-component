@@ -18,18 +18,62 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div
-          className="price"
+        <img
+          className="moneyIcon"
+          src="https://s3-us-west-1.amazonaws.com/imagesfornamson/21.png"
         />,
-        <div
-          className="hours"
-        />,
-        <div
-          className="style"
-        />,
-        <div
-          className="phone"
-        />,
+        <div>
+          <div
+            className="side"
+          >
+            Price:
+          </div>
+          <div
+            className="sideInfoPrice"
+          />
+        </div>,
+        <div>
+          <div
+            className="side"
+          >
+            Hours of Operation:
+          </div>
+          <img
+            className="clockIcon"
+            src="https://s3-us-west-1.amazonaws.com/imagesfornamson/clock.png"
+          />
+          <div
+            className="sideInfoHours"
+          />
+        </div>,
+        <div>
+          <div
+            className="side"
+          >
+            Dress code:
+          </div>
+          <img
+            className="dressIcon"
+            src="https://s3-us-west-1.amazonaws.com/imagesfornamson/img_473372.png"
+          />
+          <div
+            className="sideInfoStyle"
+          />
+        </div>,
+        <div>
+          <div
+            className="side"
+          >
+            Phone Number:
+          </div>
+          <img
+            className="phoneIcon"
+            src="https://s3-us-west-1.amazonaws.com/imagesfornamson/telephone_318-61547.jpg"
+          />
+          <div
+            className="sideInfoPhone"
+          />
+        </div>,
       ],
     },
     "ref": null,
@@ -39,11 +83,56 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
-          "className": "price",
+          "className": "moneyIcon",
+          "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/21.png",
         },
         "ref": null,
         "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="side"
+            >
+              Price:
+            </div>,
+            <div
+              className="sideInfoPrice"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Price:",
+              "className": "side",
+            },
+            "ref": null,
+            "rendered": "Price:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "sideInfoPrice",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
         "type": "div",
       },
       Object {
@@ -51,11 +140,60 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
-          "className": "hours",
+          "children": Array [
+            <div
+              className="side"
+            >
+              Hours of Operation:
+            </div>,
+            <img
+              className="clockIcon"
+              src="https://s3-us-west-1.amazonaws.com/imagesfornamson/clock.png"
+            />,
+            <div
+              className="sideInfoHours"
+            />,
+          ],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hours of Operation:",
+              "className": "side",
+            },
+            "ref": null,
+            "rendered": "Hours of Operation:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "clockIcon",
+              "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/clock.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "sideInfoHours",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
         "type": "div",
       },
       Object {
@@ -63,11 +201,60 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
-          "className": "style",
+          "children": Array [
+            <div
+              className="side"
+            >
+              Dress code:
+            </div>,
+            <img
+              className="dressIcon"
+              src="https://s3-us-west-1.amazonaws.com/imagesfornamson/img_473372.png"
+            />,
+            <div
+              className="sideInfoStyle"
+            />,
+          ],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Dress code:",
+              "className": "side",
+            },
+            "ref": null,
+            "rendered": "Dress code:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "dressIcon",
+              "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/img_473372.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "sideInfoStyle",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
         "type": "div",
       },
       Object {
@@ -75,11 +262,60 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
-          "className": "phone",
+          "children": Array [
+            <div
+              className="side"
+            >
+              Phone Number:
+            </div>,
+            <img
+              className="phoneIcon"
+              src="https://s3-us-west-1.amazonaws.com/imagesfornamson/telephone_318-61547.jpg"
+            />,
+            <div
+              className="sideInfoPhone"
+            />,
+          ],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Phone Number:",
+              "className": "side",
+            },
+            "ref": null,
+            "rendered": "Phone Number:",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "phoneIcon",
+              "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/telephone_318-61547.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "sideInfoPhone",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
         "type": "div",
       },
     ],
@@ -92,18 +328,62 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div
-            className="price"
+          <img
+            className="moneyIcon"
+            src="https://s3-us-west-1.amazonaws.com/imagesfornamson/21.png"
           />,
-          <div
-            className="hours"
-          />,
-          <div
-            className="style"
-          />,
-          <div
-            className="phone"
-          />,
+          <div>
+            <div
+              className="side"
+            >
+              Price:
+            </div>
+            <div
+              className="sideInfoPrice"
+            />
+          </div>,
+          <div>
+            <div
+              className="side"
+            >
+              Hours of Operation:
+            </div>
+            <img
+              className="clockIcon"
+              src="https://s3-us-west-1.amazonaws.com/imagesfornamson/clock.png"
+            />
+            <div
+              className="sideInfoHours"
+            />
+          </div>,
+          <div>
+            <div
+              className="side"
+            >
+              Dress code:
+            </div>
+            <img
+              className="dressIcon"
+              src="https://s3-us-west-1.amazonaws.com/imagesfornamson/img_473372.png"
+            />
+            <div
+              className="sideInfoStyle"
+            />
+          </div>,
+          <div>
+            <div
+              className="side"
+            >
+              Phone Number:
+            </div>
+            <img
+              className="phoneIcon"
+              src="https://s3-us-west-1.amazonaws.com/imagesfornamson/telephone_318-61547.jpg"
+            />
+            <div
+              className="sideInfoPhone"
+            />
+          </div>,
         ],
       },
       "ref": null,
@@ -113,11 +393,56 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
-            "className": "price",
+            "className": "moneyIcon",
+            "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/21.png",
           },
           "ref": null,
           "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="side"
+              >
+                Price:
+              </div>,
+              <div
+                className="sideInfoPrice"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Price:",
+                "className": "side",
+              },
+              "ref": null,
+              "rendered": "Price:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "sideInfoPrice",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -125,11 +450,60 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
-            "className": "hours",
+            "children": Array [
+              <div
+                className="side"
+              >
+                Hours of Operation:
+              </div>,
+              <img
+                className="clockIcon"
+                src="https://s3-us-west-1.amazonaws.com/imagesfornamson/clock.png"
+              />,
+              <div
+                className="sideInfoHours"
+              />,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hours of Operation:",
+                "className": "side",
+              },
+              "ref": null,
+              "rendered": "Hours of Operation:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "clockIcon",
+                "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/clock.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "sideInfoHours",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -137,11 +511,60 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
-            "className": "style",
+            "children": Array [
+              <div
+                className="side"
+              >
+                Dress code:
+              </div>,
+              <img
+                className="dressIcon"
+                src="https://s3-us-west-1.amazonaws.com/imagesfornamson/img_473372.png"
+              />,
+              <div
+                className="sideInfoStyle"
+              />,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dress code:",
+                "className": "side",
+              },
+              "ref": null,
+              "rendered": "Dress code:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "dressIcon",
+                "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/img_473372.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "sideInfoStyle",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -149,11 +572,60 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
-            "className": "phone",
+            "children": Array [
+              <div
+                className="side"
+              >
+                Phone Number:
+              </div>,
+              <img
+                className="phoneIcon"
+                src="https://s3-us-west-1.amazonaws.com/imagesfornamson/telephone_318-61547.jpg"
+              />,
+              <div
+                className="sideInfoPhone"
+              />,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Phone Number:",
+                "className": "side",
+              },
+              "ref": null,
+              "rendered": "Phone Number:",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "phoneIcon",
+                "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/telephone_318-61547.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "sideInfoPhone",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
       ],

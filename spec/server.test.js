@@ -23,7 +23,7 @@ describe('should receive a 404 if route isnt correct', () => {
 
 describe('GET route to /restaurants/:id/ should return 200 status', () => {
   test('should receive 200 status code', (done) => {
-    request(app).get('/restaurants/90826').then((response) => {
+    request(app).get('/restaurants/90976').then((response) => {
       expect(response.statusCode).toBe(200);
       done();
     });

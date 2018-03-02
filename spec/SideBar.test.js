@@ -14,8 +14,9 @@ describe('About Component', () => {
 });
 
 describe("rendered `SideBar`", () => {
-  it("received four props", () => {
+  it("received five props", () => {
     const component = shallow(<SideBar />);
-    expect(component.props().children.length).toBe(4);
+    // console.log(component.props().children) 
+    expect(component.props().children.length).toBe(5);
   });
 });

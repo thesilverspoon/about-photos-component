@@ -11,15 +11,15 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      id: props.data.id,
-      name: props.data.name,
-      description: props.data.about.description,
-      hours: props.data.about.hours,
-      phone: props.data.about.phone,
-      price: props.data.about.price,
-      style: props.data.about.style,
-      banner: props.data.banner,
-      photo: props.data.photo,
+      id: props.id,
+      name: '',
+      description: '',
+      hours: '',
+      phone: '',
+      price: '',
+      style: '',
+      banner: '',
+      photo: [],
     }
   }
 
@@ -28,12 +28,19 @@ class App extends React.Component {
   }
 
   fetch() {
-    ajax.get((err, data) => {
+    ajax.get(this.state.id, (err, data) => {
       if (err) {
         throw err;
       } else {
         this.setState({
-          restaurant: data.restaurant,
+          name: data[0].name,
+          description: data[0].about.description,
+          hours: data[0].about.hours,
+          phone: data[0].about.phone,
+          price: data[0].about.price,
+          style: data[0].about.style,
+          banner: data[0].banner,
+          photo: data[0].photo
         })
       }
     });
@@ -54,6 +61,6 @@ class App extends React.Component {
   }
 }
 
-render(<App data={sampleData[0]}/>, document.getElementById('app'));
+render(<App id={81509}/>, document.getElementById('app'));
 
 export default App;
