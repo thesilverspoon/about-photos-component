@@ -13,7 +13,9 @@ jobs:
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
       - image: circleci/mongo:3.6.2
-        environment: "mongodb://localhost:27017/restaurants"
+        environment:
+         MONGO_URI: "mongodb://localhost:27017/restaurants"
+         MONGODB_DATABASE: "restaurants"
 
     working_directory: ~/repo
 
