@@ -1,8 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
 import ajax from './ajax.js';
-import sampleData from '../../data/sampleData.js';
-import PropTypes from 'prop-types';
 import About from './About.jsx';
 import SideBar from './SideBar.jsx';
 import Banner from './Banner.jsx';
@@ -60,7 +57,5 @@ class App extends React.Component {
     );
   }
 }
-
-render(<App id={81509}/>, document.getElementById('app'));
 
 export default App;

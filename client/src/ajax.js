@@ -5,7 +5,6 @@ const get = (id, cb) => {
     url: `/restaurants/${id}`,
     method: 'GET',
     success: (data) => {
-      console.log(typeof data);
       cb(null, data);
     },
   });
