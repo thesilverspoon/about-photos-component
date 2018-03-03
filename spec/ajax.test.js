@@ -1,10 +1,9 @@
 const ajax = require('../client/src/ajax.js');
 const sinon = require('sinon');
-
-console.log(ajax);
+const sampleData = require('../data/sampleData.js');
 
 describe("with fake server", function() {
-  const data = "test";
+  const data = sampleData[0];
   let server;
 
   beforeEach(function () {
@@ -20,6 +19,9 @@ describe("with fake server", function() {
     const callback = jasmine.createSpy('callback');
     ajax.get(90976, callback);
     server.respond();
+    var res = callback.calls.mostRecent().args[1];
     expect(callback).toHaveBeenCalled();
+    expect(res.id).toBe(90976);
+    expect(res.name).toBe("Beard Papa's");
   });
 });
