@@ -29,28 +29,35 @@ ShallowWrapper {
         <div
           className="restaurant"
         >
-          About 
+          <div
+            className="line"
+          />
         </div>,
         <div
-          className="description"
+          className="rowAbout"
         >
-          description 
+          <div
+            className="description"
+          />
         </div>,
         <div
           className="photo"
         >
-          Photos:
           <img
+            className="photoOne"
             src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg"
           />
           <img
+            className="photoTwo"
             src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg"
           />
           <img
+            className="photoThree"
             src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg"
           />
         </div>,
       ],
+      "className": "aboutWrap",
     },
     "ref": null,
     "rendered": Array [
@@ -60,15 +67,27 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "About ",
             undefined,
+            <div
+              className="line"
+            />,
           ],
           "className": "restaurant",
         },
         "ref": null,
         "rendered": Array [
-          "About ",
           undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
         ],
         "type": "div",
       },
@@ -77,17 +96,24 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "description ",
-            undefined,
-          ],
-          "className": "description",
+          "children": <div
+            className="description"
+          />,
+          "className": "rowAbout",
         },
         "ref": null,
-        "rendered": Array [
-          "description ",
-          undefined,
-        ],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
         "type": "div",
       },
       Object {
@@ -96,14 +122,16 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "Photos:",
             <img
+              className="photoOne"
               src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg"
             />,
             <img
+              className="photoTwo"
               src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg"
             />,
             <img
+              className="photoThree"
               src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg"
             />,
           ],
@@ -111,12 +139,12 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
-          "Photos:",
           Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "photoOne",
               "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg",
             },
             "ref": null,
@@ -128,6 +156,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "photoTwo",
               "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg",
             },
             "ref": null,
@@ -139,6 +168,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "photoThree",
               "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg",
             },
             "ref": null,
@@ -161,28 +191,35 @@ ShallowWrapper {
           <div
             className="restaurant"
           >
-            About 
+            <div
+              className="line"
+            />
           </div>,
           <div
-            className="description"
+            className="rowAbout"
           >
-            description 
+            <div
+              className="description"
+            />
           </div>,
           <div
             className="photo"
           >
-            Photos:
             <img
+              className="photoOne"
               src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg"
             />
             <img
+              className="photoTwo"
               src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg"
             />
             <img
+              className="photoThree"
               src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg"
             />
           </div>,
         ],
+        "className": "aboutWrap",
       },
       "ref": null,
       "rendered": Array [
@@ -192,15 +229,27 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "About ",
               undefined,
+              <div
+                className="line"
+              />,
             ],
             "className": "restaurant",
           },
           "ref": null,
           "rendered": Array [
-            "About ",
             undefined,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
           ],
           "type": "div",
         },
@@ -209,17 +258,24 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              "description ",
-              undefined,
-            ],
-            "className": "description",
+            "children": <div
+              className="description"
+            />,
+            "className": "rowAbout",
           },
           "ref": null,
-          "rendered": Array [
-            "description ",
-            undefined,
-          ],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "description",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
           "type": "div",
         },
         Object {
@@ -228,14 +284,16 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "Photos:",
               <img
+                className="photoOne"
                 src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg"
               />,
               <img
+                className="photoTwo"
                 src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg"
               />,
               <img
+                className="photoThree"
                 src="https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg"
               />,
             ],
@@ -243,12 +301,12 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": Array [
-            "Photos:",
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "photoOne",
                 "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg",
               },
               "ref": null,
@@ -260,6 +318,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "photoTwo",
                 "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg",
               },
               "ref": null,
@@ -271,6 +330,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "photoThree",
                 "src": "https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream3.jpeg",
               },
               "ref": null,

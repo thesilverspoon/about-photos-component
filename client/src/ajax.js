@@ -1,11 +1,10 @@
 const $ = require('jquery');
 
-const get = (cb) => {
+const get = (id, cb) => {
   $.ajax({
-    url: '/restaurants/:id',
+    url: `/restaurants/${id}`,
     method: 'GET',
     success: (data) => {
-      console.log('success', data);
       cb(null, data);
     },
   });
