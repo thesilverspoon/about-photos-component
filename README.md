@@ -31,6 +31,11 @@ To run the server:
 npm run server
 ```
 
+To seed the data, make sure the collection is empty before running this script. 
+```
+npm run seed-data
+```
+
 To run webpack:
 ```
 npm run dev
