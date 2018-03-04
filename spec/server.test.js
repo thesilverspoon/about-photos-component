@@ -31,7 +31,7 @@ describe('GET route to /restaurants/:id/ should return 200 status', () => {
 });
 
 describe('GET route to /restaurants/:id', () => {
-  test('should receive appropriate body', (done) => {
+  xtest('should receive appropriate body', (done) => {
     request(app).get('/restaurants/89104').then((response) => {
       expect(response.body[0].id).toBe(89104);
       expect(response.body[0].name).toBe('Tokyo Katana-Ya');
