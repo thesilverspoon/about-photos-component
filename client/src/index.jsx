@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App.jsx';
+import SummaryView from './SummaryView.jsx';
 
-ReactDOM.render(<App id={81509}/>, document.getElementById('app'));
+ReactDOM.render(<SummaryView id={81509}/>, document.getElementById('main'));
