@@ -32,6 +32,7 @@ sampleData.forEach((data) => {
 
   about.save((err, res) => {
     if (err) {
+      // console.log(err, 'errrrrr');
     } else {
       count += 1;
       if (count === 119) {
@@ -39,7 +40,6 @@ sampleData.forEach((data) => {
       }
     }
   });
-
 });
 
 const find = (obj, cb) => {
@@ -59,7 +59,7 @@ const findOne = (obj, cb) => {
     } else {
       cb(null, results);
     }
-  })
+  });
 }
 
 module.exports.find = find;

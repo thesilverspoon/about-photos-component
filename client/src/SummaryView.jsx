@@ -4,7 +4,7 @@ import About from './About.jsx';
 import SideBar from './SideBar.jsx';
 import Banner from './Banner.jsx';
 
-class App extends React.Component {
+class SummaryView extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -58,4 +58,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default SummaryView;
