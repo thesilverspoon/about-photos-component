@@ -15,7 +15,7 @@ describe("with fake server", function() {
   });
 
   it("fetches with the correct id and url", function () {
-    server.respondWith("GET", "/restaurants/90976", [200, {"Content-Type":"application/json"}, JSON.stringify(data)]);
+    server.respondWith("GET", "http://localhost:3004/restaurants/90976", [200, {"Content-Type":"application/json"}, JSON.stringify(data)]);
     const callback = jasmine.createSpy('callback');
     ajax.get(90976, callback);
     server.respond();
