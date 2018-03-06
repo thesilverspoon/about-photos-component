@@ -11,7 +11,6 @@ describe('seeded data should be inserted properly', () => {
       }
       expect(data.length).toBe(119);
       expect(data[0].photo.length).toBe(3);
-      expect(data[0].about.price).toBe("$");
       done();
     });
   });
