@@ -2,8 +2,8 @@ import React from 'react';
 
 const Banner = ({ banner }) => {
   return (
-    <div className="bannerImg">
-      <img src={banner} />
+    <div>
+      <img className="bannerImg" src={banner} />
     </div>
   );
 };
