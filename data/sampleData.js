@@ -47,8 +47,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
     photo:
      ['https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg'],
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg'],
   },
   {id: 87260,
     name: 'Senor Sisig',
@@ -74,8 +74,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] },
   { id: 86549,
     name: 'Crepes Sil Vous Plait',
     about: 
@@ -126,8 +126,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] },
   { id: 85955,
     name: 'India Clay Oven Restaurant and Bar',
     about: 
@@ -165,8 +165,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] },
   { id: 82945,
     name: 'Smitten Ice Cream',
     about: 
@@ -230,8 +230,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] },
   { id: 81680,
     name: 'Sharetea',
     about: 
@@ -269,8 +269,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] },
   { id: 81161,
     name: 'Limon Peruvian Rotisserie',
     about: 
@@ -646,8 +646,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] },
   { id: 68394,
     name: 'Mission Bowling Club',
     about: 
@@ -827,8 +827,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] },
   { id: 62943,
     name: 'Irving Pizza',
     about: 
@@ -1061,8 +1061,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg' ] },
   { id: 33468,
     name: 'Stacks Restaurant',
     about: 
@@ -1152,8 +1152,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] },
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+       'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] },
   { id: 19277,
     name: 'Farmer Brown',
     about: 
@@ -1334,8 +1334,8 @@ const sampleData = [
   banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg' ] }, 
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg' ] }, 
   { id: 3267,
   name: 'The Olive Garden',
   about: 
@@ -1347,8 +1347,8 @@ const sampleData = [
   banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg' ] }, 
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg' ] }, 
   { id: 3241,
   name: 'Sheng Kee Bakery',
   about: 
@@ -1399,8 +1399,8 @@ const sampleData = [
   banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg' ] }, 
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg' ] }, 
   { id: 2898,
   name: 'The Cheesecake Factory',
   about: 
@@ -1425,8 +1425,8 @@ const sampleData = [
   banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpg' ] }, 
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi3.jpeg' ] }, 
   { id: 2766,
   name: 'Taqueria Guadalajara',
   about: 
@@ -1464,8 +1464,8 @@ const sampleData = [
   banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg' ] }, 
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg' ] }, 
   { id: 1977,
   name: 'Burma Superstar',
   about: 
@@ -1490,8 +1490,8 @@ const sampleData = [
   banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg' ] }, 
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg' ] }, 
   { id: 1596,
   name: 'Burgermeister',
   about: 
@@ -1516,8 +1516,8 @@ const sampleData = [
   banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg' ] }, 
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg' ] }, 
   { id: 884,
   name: 'House of Nanking',
   about: 
@@ -1542,8 +1542,8 @@ const sampleData = [
   banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg' ] }, 
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+     'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg' ] }, 
   { id: 305,
     name: 'Pacific Catch',
     about:
@@ -1556,8 +1556,8 @@ const sampleData = [
     banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg', 
     photo:
       ['https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
-        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpg',
-        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpg'] },
+        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
+        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta3.jpeg'] },
 
 ];
 
