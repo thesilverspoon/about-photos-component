@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const sampleData = require('../data/sampleData.js');
 
 
-mongoose.connect('mongodb://localhost/restaurant');
+mongoose.connect(`mongodb://${process.env.DB_USER}:${process.env.DB_PW}@ds259778.mlab.com:59778/abouts`);
 
 const aboutSchema = mongoose.Schema({
   id: {
@@ -47,6 +47,7 @@ const find = (obj, cb) => {
     if (err) {
       cb(err, null);
     } else {
+      console.log(about);
       cb(null, about);
     }
   });

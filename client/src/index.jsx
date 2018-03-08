@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom';
 
 import SummaryView from './SummaryView.jsx';
 
-ReactDOM.render(<SummaryView id={81509}/>, document.getElementById('main'));
+ReactDOM.render(<SummaryView id={305}/>, document.getElementById('main'));
