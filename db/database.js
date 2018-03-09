@@ -47,7 +47,6 @@ const find = (obj, cb) => {
     if (err) {
       cb(err, null);
     } else {
-      console.log(about);
       cb(null, about);
     }
   });
