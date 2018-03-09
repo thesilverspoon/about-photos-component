@@ -17,7 +17,7 @@ const aboutSchema = mongoose.Schema({
     style: String,
     phone: String,
   },
-  banner: String,
+  banner: [],
   photo: [],
 });
 
