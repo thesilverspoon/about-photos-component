@@ -10,7 +10,7 @@ const sampleData = [
        style: 'dress-code enforced',
        hours: 'M - F, 7am - 8pm',
      },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ['https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg', 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg', 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg', 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg'],
     photo:
      ['https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg',
@@ -27,7 +27,7 @@ const sampleData = [
        style: 'fancy',
        hours: 'M - Sun, 8am - 10pm',
      },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ['https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg', "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo:
      ['https://s3-us-west-1.amazonaws.com/imagesfornamson/boba1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/boba2.jpeg',
@@ -44,7 +44,7 @@ const sampleData = [
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm',
      },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ['https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg', "https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"], 
     photo:
      ['https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -58,7 +58,7 @@ const sampleData = [
        price: '$',
        style: 'casual',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -71,7 +71,7 @@ const sampleData = [
        price: '$$',
        style: 'dress-code enforced',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -84,7 +84,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'no dress-code',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -97,7 +97,7 @@ const sampleData = [
        price: '$$$$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg',
@@ -110,7 +110,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -123,7 +123,7 @@ const sampleData = [
        price: '$$$$',
        style: 'fancy',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -136,7 +136,7 @@ const sampleData = [
        price: '$$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/indian1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/indian2.jpeg',
@@ -149,7 +149,7 @@ const sampleData = [
        price: '$$',
        style: 'no dress-code',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -162,7 +162,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -175,7 +175,7 @@ const sampleData = [
        price: '$$',
        style: 'casual',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg',
@@ -188,7 +188,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -201,7 +201,7 @@ const sampleData = [
        price: '$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza2.jpeg',
@@ -214,7 +214,7 @@ const sampleData = [
        price: '$$$',
        style: 'no dress-code',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -227,7 +227,7 @@ const sampleData = [
        price: '$',
        style: 'no dress-code',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -240,7 +240,7 @@ const sampleData = [
        price: '$$',
        style: 'fancy',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/boba1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/boba2.jpeg',
@@ -253,7 +253,7 @@ const sampleData = [
        price: '$',
        style: 'dress-code enforced',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -266,7 +266,7 @@ const sampleData = [
        price: '$$$',
        style: 'fancy',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -279,7 +279,7 @@ const sampleData = [
        price: '$$',
        style: 'fancy',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -292,7 +292,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'casual',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -305,7 +305,7 @@ const sampleData = [
        price: '$$$',
        style: 'fancy',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -318,7 +318,7 @@ const sampleData = [
        price: '$$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/boba1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/boba2.jpeg',
@@ -331,7 +331,7 @@ const sampleData = [
        price: '$$',
        style: 'fancy',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -344,7 +344,7 @@ const sampleData = [
        price: '$$$',
        style: 'fancy',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/donuts1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/donuts2.jpeg',
@@ -357,7 +357,7 @@ const sampleData = [
        price: '$$',
        style: 'no dress-code',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai2.jpeg',
@@ -370,7 +370,7 @@ const sampleData = [
        price: '$',
        style: 'no dress-code',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -383,7 +383,7 @@ const sampleData = [
        price: '$',
        style: 'dress-code enforced',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/donuts1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/donuts2.jpeg',
@@ -396,7 +396,7 @@ const sampleData = [
        price: '$$',
        style: 'casual',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -409,7 +409,7 @@ const sampleData = [
        price: '$',
        style: 'no dress-code',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/donuts1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/donuts2.jpeg',
@@ -422,7 +422,7 @@ const sampleData = [
        price: '$$$',
        style: 'casual',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -435,7 +435,7 @@ const sampleData = [
        price: '$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -448,7 +448,7 @@ const sampleData = [
        price: '$$',
        style: 'casual',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/donuts1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/donuts2.jpeg',
@@ -461,7 +461,7 @@ const sampleData = [
        price: '$',
        style: 'fancy',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -474,7 +474,7 @@ const sampleData = [
        price: '$',
        style: 'dress-code enforced',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -487,7 +487,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'fancy',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -500,7 +500,7 @@ const sampleData = [
        price: '$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/indian1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/indian2.jpeg',
@@ -513,7 +513,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/indian1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/indian2.jpeg',
@@ -526,7 +526,7 @@ const sampleData = [
        price: '$$$',
        style: 'casual',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -539,7 +539,7 @@ const sampleData = [
        price: '$$$$',
        style: 'fancy',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -552,7 +552,7 @@ const sampleData = [
        price: '$$$$',
        style: 'fancy',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -565,7 +565,7 @@ const sampleData = [
        price: '$$$$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -578,7 +578,7 @@ const sampleData = [
        price: '$$$$',
        style: 'casual',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai2.jpeg',
@@ -591,7 +591,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'no dress-code',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg',
@@ -604,7 +604,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -617,7 +617,7 @@ const sampleData = [
        price: '$',
        style: 'fancy',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -630,7 +630,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'fancy',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -643,7 +643,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -656,7 +656,7 @@ const sampleData = [
        price: '$$$$',
        style: 'fancy',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -669,7 +669,7 @@ const sampleData = [
        price: '$$$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/coffee1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/coffee3.jpeg' ] },
@@ -681,7 +681,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -694,7 +694,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'no dress-code',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -707,7 +707,7 @@ const sampleData = [
        price: '$$$',
        style: 'no dress-code',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -720,7 +720,7 @@ const sampleData = [
        price: '$$$',
        style: 'casual',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -733,7 +733,7 @@ const sampleData = [
        price: '$$',
        style: 'fancy',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza2.jpeg',
@@ -746,7 +746,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'dress-code enforced',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai2.jpeg',
@@ -759,7 +759,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'casual',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/dimsum1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/dimsum2.jpeg',
@@ -772,7 +772,7 @@ const sampleData = [
        price: '$$',
        style: 'dress-code enforced',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -785,7 +785,7 @@ const sampleData = [
        price: '$$$',
        style: 'fancy',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -798,7 +798,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -811,7 +811,7 @@ const sampleData = [
        price: '$$',
        style: 'dress-code enforced',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -824,7 +824,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'dress-code enforced',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -837,7 +837,7 @@ const sampleData = [
        price: '$$$$',
        style: 'no dress-code',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza2.jpeg',
@@ -850,7 +850,7 @@ const sampleData = [
        price: '$$$',
        style: 'fancy',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -863,7 +863,7 @@ const sampleData = [
        price: '$$$$',
        style: 'no dress-code',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -876,7 +876,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'casual',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -889,7 +889,7 @@ const sampleData = [
        price: '$',
        style: 'no dress-code',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza2.jpeg',
@@ -902,7 +902,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza2.jpeg',
@@ -915,7 +915,7 @@ const sampleData = [
        price: '$$',
        style: 'fancy',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -928,7 +928,7 @@ const sampleData = [
        price: '$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -941,7 +941,7 @@ const sampleData = [
        price: '$$$$',
        style: 'no dress-code',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -954,7 +954,7 @@ const sampleData = [
        price: '$$$$',
        style: 'no dress-code',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -967,7 +967,7 @@ const sampleData = [
        price: '$$$',
        style: 'no dress-code',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza2.jpeg',
@@ -980,7 +980,7 @@ const sampleData = [
        price: '$$$$',
        style: 'casual',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -993,7 +993,7 @@ const sampleData = [
        price: '$$$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -1006,7 +1006,7 @@ const sampleData = [
        price: '$$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg',
@@ -1019,7 +1019,7 @@ const sampleData = [
        price: '$$$',
        style: 'fancy',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1032,7 +1032,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'dress-code enforced',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1045,7 +1045,7 @@ const sampleData = [
        price: '$$$$',
        style: 'casual',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -1058,7 +1058,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
@@ -1071,7 +1071,7 @@ const sampleData = [
        price: '$',
        style: 'dress-code enforced',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1084,7 +1084,7 @@ const sampleData = [
        price: '$',
        style: 'no dress-code',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -1097,7 +1097,7 @@ const sampleData = [
        price: '$$$$',
        style: 'no dress-code',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -1110,7 +1110,7 @@ const sampleData = [
        price: '$',
        style: 'no dress-code',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -1123,7 +1123,7 @@ const sampleData = [
        price: '$',
        style: 'no dress-code',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -1136,7 +1136,7 @@ const sampleData = [
        price: '$',
        style: 'fancy',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/icecream2.jpeg',
@@ -1149,7 +1149,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'dress-code enforced',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -1162,7 +1162,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'casual',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1175,7 +1175,7 @@ const sampleData = [
        price: '$$$$',
        style: 'dress-code enforced',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/boba1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/boba2.jpeg',
@@ -1188,7 +1188,7 @@ const sampleData = [
        price: '$$',
        style: 'no dress-code',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1201,7 +1201,7 @@ const sampleData = [
        price: '$$$$',
        style: 'no dress-code',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai2.jpeg',
@@ -1214,7 +1214,7 @@ const sampleData = [
        price: '$$$$',
        style: 'no dress-code',
        hours: 'M - Sun, 8am - 10pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai2.jpeg',
@@ -1227,7 +1227,7 @@ const sampleData = [
        price: '$',
        style: 'casual',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -1240,7 +1240,7 @@ const sampleData = [
        price: '$',
        style: 'no dress-code',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1253,7 +1253,7 @@ const sampleData = [
        price: '$$',
        style: 'casual',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1266,7 +1266,7 @@ const sampleData = [
        price: '$',
        style: 'dress-code enforced',
        hours: 'M - Sat, 10am - 9pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -1279,7 +1279,7 @@ const sampleData = [
        price: '$$$$$',
        style: 'no dress-code',
        hours: 'M - F, 10am - 6pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -1292,7 +1292,7 @@ const sampleData = [
        price: '$$$',
        style: 'dress-code enforced',
        hours: 'M - F, 7am - 8pm' },
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
     photo: 
      [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
        'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1305,7 +1305,7 @@ const sampleData = [
          price: '$',
          style: 'dress-code enforced',
          hours: 'M - F, 7am - 8pm' },
-      banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+      banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
       photo: 
        [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
          'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -1318,7 +1318,7 @@ const sampleData = [
          price: '$$$$',
          style: 'casual',
          hours: 'M - F, 10am - 6pm' },
-      banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+      banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
       photo: 
        [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
          'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1331,7 +1331,7 @@ const sampleData = [
      price: '$$$',
      style: 'casual',
      hours: 'M - F, 10am - 6pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
@@ -1344,7 +1344,7 @@ const sampleData = [
      price: '$$$$$',
      style: 'no dress-code',
      hours: 'M - Sat, 10am - 9pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
@@ -1357,7 +1357,7 @@ const sampleData = [
      price: '$$',
      style: 'casual',
      hours: 'M - Sun, 8am - 10pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/sandwich2.jpeg',
@@ -1370,7 +1370,7 @@ const sampleData = [
      price: '$$$$$',
      style: 'fancy',
      hours: 'M - Sun, 8am - 10pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int4.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1383,7 +1383,7 @@ const sampleData = [
      price: '$$$$$',
      style: 'fancy',
      hours: 'M - Sun, 8am - 10pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/chinese2.jpeg',
@@ -1396,7 +1396,7 @@ const sampleData = [
      price: '$$',
      style: 'dress-code enforced',
      hours: 'M - Sun, 8am - 10pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
@@ -1409,7 +1409,7 @@ const sampleData = [
      price: '$$$$$',
      style: 'dress-code enforced',
      hours: 'M - F, 10am - 6pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1422,7 +1422,7 @@ const sampleData = [
      price: '$$$$$',
      style: 'no dress-code',
      hours: 'M - F, 10am - 6pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi1.jpg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/sushi2.jpeg',
@@ -1435,7 +1435,7 @@ const sampleData = [
      price: '$$',
      style: 'casual',
      hours: 'M - F, 10am - 6pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int7.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/taco2.jpeg',
@@ -1448,7 +1448,7 @@ const sampleData = [
      price: '$$$$',
      style: 'fancy',
      hours: 'M - Sun, 8am - 10pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int3.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/pizza2.jpeg',
@@ -1461,7 +1461,7 @@ const sampleData = [
      price: '$$$',
      style: 'no dress-code',
      hours: 'M - F, 7am - 8pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
@@ -1474,7 +1474,7 @@ const sampleData = [
      price: '$$',
      style: 'fancy',
      hours: 'M - F, 10am - 6pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai2.jpeg',
@@ -1487,7 +1487,7 @@ const sampleData = [
      price: '$$',
      style: 'no dress-code',
      hours: 'M - Sat, 10am - 9pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
@@ -1500,7 +1500,7 @@ const sampleData = [
      price: '$$',
      style: 'casual',
      hours: 'M - F, 10am - 6pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/burger2.jpeg',
@@ -1513,7 +1513,7 @@ const sampleData = [
      price: '$$$',
      style: 'casual',
      hours: 'M - F, 10am - 6pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
@@ -1526,7 +1526,7 @@ const sampleData = [
      price: '$',
      style: 'casual',
      hours: 'M - Sun, 8am - 10pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int6.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai1.jpeg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/thai2.jpeg',
@@ -1539,7 +1539,7 @@ const sampleData = [
      price: '$$$$$',
      style: 'fancy',
      hours: 'M - Sat, 10am - 9pm' },
-  banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int8.jpeg',
+  banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/ext7.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext8.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg"],
   photo: 
    [ 'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
      'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',
@@ -1553,7 +1553,7 @@ const sampleData = [
      price: '$$',
      style: 'casual',
      hours: 'M - Sun, 8am - 10pm'},
-    banner: 'https://s3-us-west-1.amazonaws.com/imagesfornamson/int5.jpeg', 
+    banner: ["https://s3-us-west-1.amazonaws.com/imagesfornamson/int1.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/int2.jpeg", "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext1.jpeg" , "https://s3-us-west-1.amazonaws.com/imagesfornamson/ext2.jpeg"], 
     photo:
       ['https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta1.jpg',
         'https://s3-us-west-1.amazonaws.com/imagesfornamson/pasta2.jpeg',

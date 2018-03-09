@@ -34,9 +34,8 @@ describe('each property should match my schema data type', () => {
       expect(typeof sampleData[i].about.price).toBe('string');
       expect(typeof sampleData[i].about.style).toBe('string');
       expect(typeof sampleData[i].about.phone).toBe('string');
-      expect(typeof sampleData[i].banner).toBe('string');
+      expect(Array.isArray(sampleData[i].banner)).toBe(true);
       expect(Array.isArray(sampleData[i].photo)).toBe(true);
     }
   });
 });
-
