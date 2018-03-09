@@ -2,6 +2,8 @@ const ajax = require('../client/src/ajax.js');
 const sinon = require('sinon');
 const sampleData = require('../data/sampleData.js');
 
+const BASE_URL = process.env.BASE_URL ? process.env.BASE_URL : '';
+
 describe("with fake server", function() {
   const data = sampleData[0];
   let server;
@@ -15,7 +17,7 @@ describe("with fake server", function() {
   });
 
   it("fetches with the correct id and url", function () {
-    server.respondWith("GET", "http://localhost:3004/restaurants/90976", [200, {"Content-Type":"application/json"}, JSON.stringify(data)]);
+    server.respondWith("GET", `${BASE_URL}/restaurants/90976`, [200, {"Content-Type":"application/json"}, JSON.stringify(data)]);
     const callback = jasmine.createSpy('callback');
     ajax.get(90976, callback);
     server.respond();

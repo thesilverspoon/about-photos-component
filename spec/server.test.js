@@ -5,7 +5,7 @@ const app = require('../server/app.js');
 
 describe('should send back a 200 if static file is found', () => {
   test('It should respond with a 200', (done) => {
-    request(app).get('/').then((response) => {
+    request(app).get('/restaurants/90976').then((response) => {
       expect(response.statusCode).toBe(200);
       done();
     });
