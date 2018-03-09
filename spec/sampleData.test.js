@@ -39,4 +39,3 @@ describe('each property should match my schema data type', () => {
     }
   });
 });
-
