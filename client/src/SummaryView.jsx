@@ -11,11 +11,11 @@ class SummaryView extends React.Component {
       id: props.id,
       name: '',
       description: '',
-      hours: '',
+      hours:  '',
       phone: '',
       price: '',
       style: '',
-      banner: '',
+      banner: [],
       photo: [],
     }
   }

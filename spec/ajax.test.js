@@ -22,6 +22,7 @@ describe("with fake server", function() {
     ajax.get(90976, callback);
     server.respond();
     var res = callback.calls.mostRecent().args[1];
+    expect(1).toBe(1);
     expect(callback).toHaveBeenCalled();
     expect(res.id).toBe(90976);
     expect(res.name).toBe("Beard Papa's");
