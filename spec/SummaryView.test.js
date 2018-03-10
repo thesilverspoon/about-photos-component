@@ -7,7 +7,7 @@ import SummaryView from '../client/src/SummaryView.jsx';
 Enzyme.configure({ adapter: new Adapter() });
 
 describe('SummaryView Component', () => {
-  xtest('should render correctly', () => {
+  test('should render correctly', () => {
     expect(Enzyme.shallow(<SummaryView />)).toMatchSnapshot();
   });
 });

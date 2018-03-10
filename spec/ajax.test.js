@@ -17,14 +17,14 @@ describe("with fake server", function() {
   });
 
   it("fetches with the correct id and url", function () {
-    // server.respondWith("GET", `${BASE_URL}/restaurants/90976`, [200, {"Content-Type":"application/json"}, JSON.stringify(data)]);
-    // const callback = jasmine.createSpy('callback');
-    // ajax.get(90976, callback);
-    // server.respond();
-    // var res = callback.calls.mostRecent().args[1];
+    server.respondWith("GET", `${BASE_URL}/restaurants/90976`, [200, {"Content-Type":"application/json"}, JSON.stringify(data)]);
+    const callback = jasmine.createSpy('callback');
+    ajax.get(90976, callback);
+    server.respond();
+    var res = callback.calls.mostRecent().args[1];
     expect(1).toBe(1);
-    // expect(callback).toHaveBeenCalled();
-    // expect(res.id).toBe(90976);
-    // expect(res.name).toBe("Beard Papa's");
+    expect(callback).toHaveBeenCalled();
+    expect(res.id).toBe(90976);
+    expect(res.name).toBe("Beard Papa's");
   });
 });

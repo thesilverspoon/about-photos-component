@@ -8,40 +8,40 @@ class SummaryView extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      id: props.id.id,
-      name: props.id.name,
-      description: props.id.about.description,
-      hours:  props.id.about.hours,
-      phone: props.id.about.phone,
-      price: props.id.about.price,
-      style: props.id.about.style,
-      banner: props.id.banner,
-      photo: props.id.photo,
+      id: props.id,
+      name: '',
+      description: '',
+      hours:  '',
+      phone: '',
+      price: '',
+      style: '',
+      banner: [],
+      photo: [],
     }
   }
 
-  // componentDidMount() {
-  //   this.fetch();
-  // }
+  componentDidMount() {
+    this.fetch();
+  }
 
-  // fetch() {
-  //   ajax.get(this.state.id, (err, data) => {
-  //     if (err) {
-  //       throw err;
-  //     } else {
-  //       this.setState({
-  //         name: data[0].name,
-  //         description: data[0].about.description,
-  //         hours: data[0].about.hours,
-  //         phone: data[0].about.phone,
-  //         price: data[0].about.price,
-  //         style: data[0].about.style,
-  //         banner: data[0].banner,
-  //         photo: data[0].photo
-  //       })
-  //     }
-  //   });
-  // }
+  fetch() {
+    ajax.get(this.state.id, (err, data) => {
+      if (err) {
+        throw err;
+      } else {
+        this.setState({
+          name: data[0].name,
+          description: data[0].about.description,
+          hours: data[0].about.hours,
+          phone: data[0].about.phone,
+          price: data[0].about.price,
+          style: data[0].about.style,
+          banner: data[0].banner,
+          photo: data[0].photo
+        })
+      }
+    });
+  }
 
   render() {
     return (

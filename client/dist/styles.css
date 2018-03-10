@@ -158,6 +158,7 @@
 
 .description {
   font-family: Arial;
+  overflow: hidden;
 }
 
 .sidebar {

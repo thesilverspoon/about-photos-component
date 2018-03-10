@@ -4,4 +4,4 @@ import data from '../../data/sampleData.js'
 
 import SummaryView from './SummaryView.jsx';
 
-ReactDOM.render(<SummaryView id={data[70]}/>, document.getElementById('main'));
+ReactDOM.render(<SummaryView id={90976}/>, document.getElementById('main'));

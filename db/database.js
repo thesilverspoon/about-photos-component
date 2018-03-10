@@ -52,16 +52,4 @@ const find = (obj, cb) => {
   });
 };
 
-const findOne = (obj, cb) => {
-  About.findOne({}, (err, results) => {
-    if (err) {
-      cb(err, null);
-    } else {
-      cb(null, results);
-    }
-  });
-}
-
 module.exports.find = find;
-module.exports.findOne = findOne;
-

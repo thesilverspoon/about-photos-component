@@ -22,7 +22,7 @@ ShallowWrapper {
           className="banner"
         >
           <Banner
-            banner=""
+            banner={Array []}
           />
         </div>,
         <div
@@ -61,7 +61,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <Banner
-            banner=""
+            banner={Array []}
           />,
           "className": "banner",
         },
@@ -71,7 +71,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "banner": "",
+            "banner": Array [],
           },
           "ref": null,
           "rendered": null,
@@ -187,7 +187,7 @@ ShallowWrapper {
             className="banner"
           >
             <Banner
-              banner=""
+              banner={Array []}
             />
           </div>,
           <div
@@ -226,7 +226,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <Banner
-              banner=""
+              banner={Array []}
             />,
             "className": "banner",
           },
@@ -236,7 +236,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "banner": "",
+              "banner": Array [],
             },
             "ref": null,
             "rendered": null,
